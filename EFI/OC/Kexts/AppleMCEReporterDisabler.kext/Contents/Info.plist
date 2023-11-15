@@ -42,6 +42,10 @@
 					<key>board-id</key>
 					<string>Mac-27AD2F918AE68F61</string>
 				</dict>
+				<dict>
+					<key>board-id</key>
+					<string>Mac-E7203C0F68AA0004</string>
+				</dict>
 			</array>
 			<key>IOProviderClass</key>
 			<string>IOPlatformExpertDevice</string>
