@@ -1,29 +1,8 @@
 # Lenovo-XiaoXin-Air14-ALC-hackintosh
 
 ## 说明
-
-**本文内容摘抄自 [zabdottler](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh)**
-
-**本EFI仅供Big Sur到Sonoma系统正常使用**
-
-**Catalina勉强可以使用，但是极易黑屏崩溃**
-
-**在安装MacOS前请在config.plist中禁用nootedred.kext**
-
-**机型信息已删除，请自行生成更换**
-
-**OpneCore版本0.9.4 release**
-
-
----
-### 存在的问题
-1.睡眠
-
-2.内置麦克风
-
-3.偶尔会卡住
-
-4.VCN（视频/图片硬件编解码）暂时还有问题，能使用但不确保问题，默认关闭，开启请添加-nredvcn至boot-args，具体请移至NootedRed页面查看最新进展
+1. 使用的是自编译的[NootedRed.kext](https://github.com/htmambo/NootedRed/releases)，添加了BFixup以及Seey6的代码；
+2. CPU默认关闭了CPB，如果需要开启请手动在AMD Power Gadget中打开（懒得去写状态的监控了，所以睡眠唤醒后需要重新打开）。
 
 ### 配置
 
@@ -66,7 +45,7 @@ ECEnabler | 电池读取
 Lilu | 必备
 NVMeFix | NVMe硬盘电源管理
 RestrictEvents | CPU改名
-SMCAMDProcessor | AMDRyzenCPUPowerManagement的附属
+SMCProcessorAMD | AMDRyzenCPUPowerManagement的附属
 SMCBatteryManager | 电池管理
 VirtualSMC | 必备
 VoodooPS2Controller | PS/2 键盘，需要在config中禁用voodoops2 input以避免与i2c的input冲突，不影响使用
