@@ -1,8 +1,8 @@
 # Lenovo-XiaoXin-Air14-ALC-hackintosh
 
 ## 说明
-1. 使用的是自编译的[NootedRed.kext](https://github.com/htmambo/NootedRed/releases)，添加了BFixup以及Seey6的代码；
-2. CPU默认关闭了CPB，如果需要开启请手动在AMD Power Gadget中打开（懒得去写状态的监控了，所以睡眠唤醒后需要重新打开）。
+1. 使用的是自编译的[NootedRed.kext](https://github.com/htmambo/NootedRed/releases)，添加了BFixup以及Seey6的代码(硬解代码只在`Montery`下生效)；
+2. CPU默认关闭了CPB，如果需要开启请手动在AMD Power Gadget中打开(CPB状态睡眠唤醒后会自动保持睡眠前的状态)。
 
 ### 配置
 
@@ -41,7 +41,6 @@ Kext | 作用
 AMDRyzenCPUPowerManagement | AMD CPU 电源管理
 AppleALC | 音频驱动
 AppleMCEReporterDisabler | 关闭AppleIntelMCEReporter，避免在AMD CPU的设备上报错
-ECEnabler | 电池读取
 Lilu | 必备
 NVMeFix | NVMe硬盘电源管理
 RestrictEvents | CPU改名
@@ -50,10 +49,8 @@ SMCBatteryManager | 电池管理
 VirtualSMC | 必备
 VoodooPS2Controller | PS/2 键盘，需要在config中禁用voodoops2 input以避免与i2c的input冲突，不影响使用
 NootedRed | AMD核显驱动
-NullEthernet | 使无网口设备在MacOS可以登录iCloud
 VoodooI2C | 触控板或触屏驱动
 VoodooI2CHID | 触控板或触屏驱动
-BrightnessKeys | 亮度调节按键
 AirportItlwm | 英特尔网卡驱动，注意不同的系统有不同的kext
 BlueToolFixup | 蓝牙驱动，Monterey及以上版本中搭配IntelBluetoothFirmware使用
 IntelBluetoothFirmware | 蓝牙驱动
