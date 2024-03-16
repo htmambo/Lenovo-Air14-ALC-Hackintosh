@@ -497,7 +497,7 @@
 				<key>BundlePath</key>
 				<string>BFixup.kext</string>
 				<key>Comment</key>
-				<string>BFixup For Catalina</string>
+				<string>BFixup</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -505,7 +505,7 @@
 				<key>MaxKernel</key>
 				<string>23.99.99</string>
 				<key>MinKernel</key>
-				<string>23.0.0</string>
+				<string>19.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -693,7 +693,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BigSur/AirportItlwm.kext</string>
+				<string>Big Sur/AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string>Intel Wi-Fi driver on Big Sur</string>
 				<key>Enabled</key>
@@ -747,7 +747,25 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Sonoma/AirportItlwm.kext</string>
+				<string>Sonoma14.0/AirportItlwm.kext</string>
+				<key>Comment</key>
+				<string>Intel Wi-Fi driver on Sonoma</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string>23.3.9</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>Sonoma14.4/AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string>Intel Wi-Fi driver on Sonoma</string>
 				<key>Enabled</key>
@@ -757,7 +775,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>23.0.0</string>
+				<string>23.4.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
