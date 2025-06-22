@@ -1,7 +1,5 @@
 # Lenovo-XiaoXin-Air14-ALC-hackintosh
 
-![release version](https://img.shields.io/github/v/release/htmambo/morefine-S500-Hackintosh?style=for-the-badge) 
-
 [![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Tahoe-16.0%2025A5279m-informational.svg)![MacOS version](https://img.shields.io/badge/Sequoia-15.5%2024F74-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-14.7.2%2023H309-informational.svg)![MacOS version](https://img.shields.io/badge/Catalina-10.15.7%2019H2026-informational.svg)
 
 ## 说明
@@ -68,7 +66,7 @@ IntelBTPatcher | 蓝牙驱动,在Big Sur及以下版本中搭配IntelBluetoothFi
 ![开机画面](ScreenShots/boot.png)
 ![Tahoe](ScreenShots/about_for_tahoe.png)
 ![Sequoia](ScreenShots/about_for_sequoia.png)
-![Sonoma](ScreenShots/About_for_Sonoma.png)
+![Sonoma](ScreenShots/about_for_sonoma.png)
 ![Catalina](ScreenShots/about_for_catalina.png)
 ![Hackintool_Misc](ScreenShots/Hackintool_Misc.png)
 ![声音](ScreenShots/Audio.png)
